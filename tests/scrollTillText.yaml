@@ -1,0 +1,21 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Explore"
+- repeat:
+    while:
+      notVisible: "Today on Wikipedia"
+    commands:
+      - scroll
+- assertVisible: "Today on Wikipedia"
+
+
+
+
+
+
+
+
+
+
+

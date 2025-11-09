@@ -1,0 +1,20 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "More"
+- tapOn: "Settings"
+- tapOn: "App theme"
+- runFlow:
+    when:
+      visible:
+        id: "org.wikipedia:id/theme_chooser_match_system_theme_switch"
+        checked: true
+    commands:
+      - tapOn:
+          id: "org.wikipedia:id/theme_chooser_match_system_theme_switch"
+- tapOn:
+    id: "org.wikipedia:id/button_theme_dark"
+
+- back
+- assertVisible: "Dark"
+- takeScreenshot: "theme_dark_ok"

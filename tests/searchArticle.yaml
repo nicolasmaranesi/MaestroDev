@@ -1,0 +1,7 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Search Wikipedia"
+- inputText: "Selenium (software)"
+- pressKey: Enter
+- assertVisible: "Testing framework for web applications"

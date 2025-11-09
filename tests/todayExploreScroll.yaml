@@ -1,0 +1,14 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Explore"
+- scroll
+- scroll
+- scroll
+- scroll
+- scroll
+- scroll
+- scroll
+- scroll
+- scroll
+- assertVisible: "Today on Wikipedia"

@@ -1,0 +1,12 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Search Wikipedia"
+- inputText: "Appium"
+- pressKey: Enter
+- tapOn: "Automation for Apps"
+- back
+- back
+- back
+- tapOn: "Search Wikipedia"
+- assertVisible: "Appium"

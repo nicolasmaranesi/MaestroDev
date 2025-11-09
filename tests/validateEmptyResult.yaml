@@ -1,0 +1,7 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Search Wikipedia"
+- inputText: "zzqwepoiu123"
+- pressKey: Enter
+- assertVisible: "No results"

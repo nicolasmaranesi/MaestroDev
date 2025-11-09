@@ -1,0 +1,9 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Search Wikipedia"
+- tapOn: "EN"
+- tapOn: "ES"
+- inputText: "argentina"
+- pressKey: Enter
+- assertVisible: "país de América del Sur"

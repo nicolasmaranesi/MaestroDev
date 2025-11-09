@@ -1,0 +1,10 @@
+appId: org.wikipedia
+---
+- launchApp
+- tapOn: "Explore"
+- repeat:
+    times: 10
+    commands:
+      - scroll
+
+- assertVisible: "Today on Wikipedia"
